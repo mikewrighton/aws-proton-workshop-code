@@ -14,4 +14,7 @@ provider "aws" {}
 
 variable "aws_region" {
   type = string
+    default_tags {
+    tags = var.proton_tags
+  }
 }
