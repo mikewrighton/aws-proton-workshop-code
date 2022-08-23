@@ -10,11 +10,12 @@ terraform {
 }
 
 # Configure the AWS Provider
-provider "aws" {}
+provider "aws" {
+  default_tags {
+    tags = var.proton_tags
+  }
+}
 
 variable "aws_region" {
   type = string
-    default_tags {
-    tags = var.proton_tags
-  }
 }
