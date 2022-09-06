@@ -1,10 +1,10 @@
 {
-  "deploymentId" : "48e53954-f76a-4bda-be4f-e1a08071da5d",
+  "deploymentId" : "cfa2bc4c-e5b9-4a46-86db-9634382559ea",
   "isResourceDeleted" : false,
   "resourceMetadata" : {
     "arn" : "arn:aws:proton:us-east-1:259837135622:environment/my-terraform-env",
     "templateArn" : "arn:aws:proton:us-east-1:259837135622:environment-template/sample-vpc-environment-template",
     "templateMajorVersion" : "1",
-    "templateMinorVersion" : "3"
+    "templateMinorVersion" : "4"
   }
 }
